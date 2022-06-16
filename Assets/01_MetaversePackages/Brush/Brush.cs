@@ -15,6 +15,8 @@ public class Brush : MonoBehaviour {
 
     [SerializeField] Transform handTransform;
 
+   
+
     // Which hand should this brush instance track?
     private enum Hand { LeftHand, RightHand };
     private Hand _hand = Hand.RightHand;
@@ -24,7 +26,19 @@ public class Brush : MonoBehaviour {
     private Quaternion  _handRotation;
     private BrushStroke _activeBrushStroke;
 
+    private void Start()
+    {
+        _realtime = FindObjectOfType<Realtime>();
+
+        //handTransform = GameObject.FindWithTag(HandTransformTag).transform;
+
+    }
+
     private void Update() {
+
+        if(handTransform == null) return;
+
+
         if (!_realtime.connected)
             return;
 
