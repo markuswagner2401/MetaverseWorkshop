@@ -1929,7 +1929,7 @@ MonoBehaviour:
     type: 3}
   rightThrustActionRef: {fileID: -1314925038495865311, guid: c348712bda248c246b8c49b3db54643f,
     type: 3}
-  speeedFactor: 0.1
+  speeedFactor: 0.02
   controllerLeft: {fileID: 3944998594423034712}
   controllerRight: {fileID: 3944998592847341404}
   vrOrigin: {fileID: 3944998593323850819}
@@ -2419,7 +2419,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &3944998593885091699
 RectTransform:
   m_ObjectHideFlags: 0
@@ -2565,7 +2565,7 @@ MonoBehaviour:
     ModeOverride: 0
     LensShift: {x: 0, y: 0}
     GateFit: 2
-    m_SensorSize: {x: 0.7063551, y: 1}
+    m_SensorSize: {x: 2.080085, y: 1}
   m_Transitions:
     m_BlendHint: 0
     m_InheritPosition: 0
@@ -4189,6 +4189,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: af34781abc7453c48a7fc953430f6c08, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  currentAvatarName: 
 --- !u!114 &3974912646778245537 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 114501696213753918, guid: fca9d4afb3743274e8f7da14019d7e0b,
@@ -4596,7 +4597,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0baf9f2734f59cd4b8a6a2743bfaff3d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  moveSpeedFactor: 0.04
+  moveSpeedFactor: 0.05
   smoothing: 0.1
   animator: {fileID: 7482140309447369564}
   fpHeadRotation: {fileID: 3944998594103700555}

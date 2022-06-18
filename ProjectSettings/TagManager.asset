@@ -8,6 +8,8 @@ TagManager:
   - DebugLog
   - LeftHandVR
   - RightHandVR
+  - MalenScene
+  - ExhibitionScene
   layers:
   - Default
   - TransparentFX

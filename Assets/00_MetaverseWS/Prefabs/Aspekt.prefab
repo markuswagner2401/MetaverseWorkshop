@@ -353,7 +353,7 @@ MonoBehaviour:
   rotationAngles: {x: 0, y: 0, z: 0}
   inputActionRef: {fileID: 6089093205495035542, guid: c348712bda248c246b8c49b3db54643f,
     type: 3}
-  rotationFactor: 1
+  rotationFactor: 0.4
 --- !u!114 &243296492870885539
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -417,7 +417,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   scaleInputRef: {fileID: -60874199356399838, guid: c348712bda248c246b8c49b3db54643f,
     type: 3}
-  scaleFactor: 0.01
+  scaleFactor: 0.005
   scale: 1
   scaleSync: {fileID: 243296492870885540}
 --- !u!114 &243296492870885540
