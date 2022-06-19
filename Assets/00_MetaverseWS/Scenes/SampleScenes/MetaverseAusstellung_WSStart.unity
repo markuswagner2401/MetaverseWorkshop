@@ -7936,6 +7936,11 @@ PrefabInstance:
       propertyPath: eventOnCollsision.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
       value: UnityEngine.Object, UnityEngine
       objectReference: {fileID: 0}
+    - target: {fileID: 6432469130616446771, guid: 13c14c6b19b115a4f8a6123551991855,
+        type: 3}
+      propertyPath: sceneByName
+      value: Malen_WSStart
+      objectReference: {fileID: 0}
     - target: {fileID: 7972748546008371152, guid: 13c14c6b19b115a4f8a6123551991855,
         type: 3}
       propertyPath: m_Name
