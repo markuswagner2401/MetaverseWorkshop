@@ -13,6 +13,7 @@ GameObject:
   - component: {fileID: 2092545788443875714}
   - component: {fileID: 2092545788443875773}
   - component: {fileID: 1639384974995078300}
+  - component: {fileID: 294396902466202366}
   m_Layer: 0
   m_Name: InteractionRay
   m_TagString: Untagged
@@ -179,5 +180,17 @@ MonoBehaviour:
   m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: e73bb4bec1db05645b108639e8ecb1e5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &294396902466202366
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2092545788443875775}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e89a5d03fa15d37439672c9f5d0b4192, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 

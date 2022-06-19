@@ -50,9 +50,9 @@ Material:
     m_Floats:
     - _QueueControl: 0
     - _QueueOffset: 0
-    - _emission: 0.1
-    - _fresnel: 2.14
+    - _emission: 0.21
+    - _fresnel: 0.48
     m_Colors:
-    - _Color1: {r: 1, g: 0.06924297, b: 0, a: 0}
-    - _Color2: {r: 0, g: 1, b: 0.74793315, a: 0}
+    - _Color1: {r: 0.5176471, g: 0.17254902, b: 0.7490196, a: 1}
+    - _Color2: {r: 0.9764706, g: 0.48235294, b: 0.25490198, a: 1}
   m_BuildTextureStacks: []

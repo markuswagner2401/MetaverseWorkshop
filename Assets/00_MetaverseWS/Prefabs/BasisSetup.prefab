@@ -514,7 +514,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_LineWidth: 0.0102
   m_OverrideInteractorLineLength: 1
-  m_LineLength: 100
+  m_LineLength: 50
   m_WidthCurve:
     serializedVersion: 2
     m_Curve:
@@ -615,7 +615,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _realtime: {fileID: 3974912646778245537}
-  _linePrefabName: InteractionRay
+  _linePrefabName: InteractionRay_exhibition
   _sourceLine: {fileID: 3944998592598089949}
   _lineSync: {fileID: 0}
   gameMode: 1
@@ -719,7 +719,7 @@ MonoBehaviour:
   m_HapticHoverCancelDuration: 0
   m_LineType: 0
   m_BlendVisualLinePoints: 1
-  m_MaxRaycastDistance: 100
+  m_MaxRaycastDistance: 50
   m_RayOriginTransform: {fileID: 3944998592598089950}
   m_ReferenceFrame: {fileID: 0}
   m_Velocity: 16
@@ -1274,7 +1274,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_LineWidth: 0.0001
   m_OverrideInteractorLineLength: 1
-  m_LineLength: 10
+  m_LineLength: 50
   m_WidthCurve:
     serializedVersion: 2
     m_Curve:
@@ -1375,7 +1375,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _realtime: {fileID: 3974912646778245537}
-  _linePrefabName: InteractionRay
+  _linePrefabName: InteractionRay_exhibition
   _sourceLine: {fileID: 3944998592847341218}
   _lineSync: {fileID: 0}
   gameMode: 0
@@ -1461,7 +1461,7 @@ MonoBehaviour:
   m_HapticHoverCancelDuration: 0
   m_LineType: 0
   m_BlendVisualLinePoints: 1
-  m_MaxRaycastDistance: 30
+  m_MaxRaycastDistance: 50
   m_RayOriginTransform: {fileID: 0}
   m_ReferenceFrame: {fileID: 0}
   m_Velocity: 16
@@ -1872,9 +1872,10 @@ GameObject:
   - component: {fileID: 3944998593323850819}
   - component: {fileID: 3944998593323850818}
   - component: {fileID: 3944998593323850816}
+  - component: {fileID: 2158856377519074210}
   m_Layer: 0
   m_Name: XR Origin
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1933,6 +1934,20 @@ MonoBehaviour:
   controllerLeft: {fileID: 3944998594423034712}
   controllerRight: {fileID: 3944998592847341404}
   vrOrigin: {fileID: 3944998593323850819}
+--- !u!136 &2158856377519074210
+CapsuleCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3944998593323850877}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  m_Radius: 0.3
+  m_Height: 1.5
+  m_Direction: 1
+  m_Center: {x: 0, y: 0.84, z: 0}
 --- !u!1 &3944998593349003299
 GameObject:
   m_ObjectHideFlags: 0
@@ -2565,7 +2580,7 @@ MonoBehaviour:
     ModeOverride: 0
     LensShift: {x: 0, y: 0}
     GateFit: 2
-    m_SensorSize: {x: 2.080085, y: 1}
+    m_SensorSize: {x: 2.1481218, y: 1}
   m_Transitions:
     m_BlendHint: 0
     m_InheritPosition: 0
@@ -3474,7 +3489,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_LineWidth: 0.0001
   m_OverrideInteractorLineLength: 1
-  m_LineLength: 10
+  m_LineLength: 50
   m_WidthCurve:
     serializedVersion: 2
     m_Curve:
@@ -3575,7 +3590,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _realtime: {fileID: 3974912646778245537}
-  _linePrefabName: InteractionRay
+  _linePrefabName: InteractionRay_exhibition
   _sourceLine: {fileID: 3944998594423034718}
   _lineSync: {fileID: 0}
   gameMode: 0
@@ -3661,7 +3676,7 @@ MonoBehaviour:
   m_HapticHoverCancelDuration: 0
   m_LineType: 0
   m_BlendVisualLinePoints: 1
-  m_MaxRaycastDistance: 30
+  m_MaxRaycastDistance: 50
   m_RayOriginTransform: {fileID: 0}
   m_ReferenceFrame: {fileID: 0}
   m_Velocity: 16
@@ -3998,7 +4013,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &2055151473886733972
 Transform:
   m_ObjectHideFlags: 0
@@ -4304,6 +4319,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: claire
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: f432069b64353774dafcb006d6ef79d5,
+        type: 3}
+      propertyPath: m_TagString
+      value: Player
+      objectReference: {fileID: 0}
     - target: {fileID: 5866666021909216657, guid: f432069b64353774dafcb006d6ef79d5,
         type: 3}
       propertyPath: m_Controller
@@ -4554,6 +4574,20 @@ GameObject:
     type: 3}
   m_PrefabInstance: {fileID: 3944998593885986509}
   m_PrefabAsset: {fileID: 0}
+--- !u!136 &8399091645625939830
+CapsuleCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4214835439262000028}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  m_Radius: 0.44007134
+  m_Height: 1.434906
+  m_Direction: 1
+  m_Center: {x: -0.059928656, y: 1.1064801, z: 0}
 --- !u!114 &3944998593885986516
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4597,7 +4631,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0baf9f2734f59cd4b8a6a2743bfaff3d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  moveSpeedFactor: 0.05
+  moveSpeedFactor: 0.035
   smoothing: 0.1
   animator: {fileID: 7482140309447369564}
   fpHeadRotation: {fileID: 3944998594103700555}

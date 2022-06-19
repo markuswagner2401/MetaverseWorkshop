@@ -370,6 +370,7 @@ public class MaterialSync : RealtimeComponent<MaterialSyncModel>
 
     private void ChangeHoverOverlayStrength()
     {
+        if(meshRenderer == null) return;
         meshRenderer.GetPropertyBlock(materialPropertyBlock);
         materialPropertyBlock.SetFloat(hoverOverlayStrengthRef, model.hoverOverlayStrength);
         meshRenderer.SetPropertyBlock(materialPropertyBlock);

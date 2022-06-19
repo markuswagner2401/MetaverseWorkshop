@@ -7,8 +7,8 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: AspektBox
-  m_Shader: {fileID: -6465566751694194690, guid: dbc114c8b693c6e48b2614c739d4cdd3,
+  m_Name: Szenenwechsel
+  m_Shader: {fileID: -6465566751694194690, guid: 91a2acf73c6c1ab4ba40a2cb2d99e5bf,
     type: 3}
   m_ValidKeywords: []
   m_InvalidKeywords: []
@@ -35,11 +35,10 @@ Material:
         m_Offset: {x: 0, y: 0}
     m_Ints: []
     m_Floats:
-    - _emission: 0.53
-    - _fresnel: 1.98
-    - _transparenz: 0.79
+    - _emission: 0.55
+    - _fresnel: 0.23
+    - _transparenz: 0.5
     m_Colors:
-    - _Color: {r: 1, g: 0, b: 0, a: 1}
-    - _Color1: {r: 0.5176471, g: 0.17254902, b: 0.7490196, a: 1}
+    - _Color1: {r: 0.1882353, g: 0.59607846, b: 0.8039216, a: 1}
     - _Color2: {r: 0.078431375, g: 0.8509804, b: 0.6313726, a: 1}
   m_BuildTextureStacks: []
