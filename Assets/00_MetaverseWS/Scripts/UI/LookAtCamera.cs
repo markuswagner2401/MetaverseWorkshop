@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class TitelControl : MonoBehaviour
+public class LookAtCamera : MonoBehaviour
 {
     Camera cam;
 
@@ -19,6 +19,7 @@ public class TitelControl : MonoBehaviour
     {
         if(lookAtCamera)
         {
+            if(cam == null) return;
             directionToCamera = (cam.transform.position - transform.position).normalized;
             transform.forward = -directionToCamera;
         }

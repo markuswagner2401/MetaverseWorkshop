@@ -31,7 +31,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2788461390490859468}
-  m_LocalRotation: {x: -0.5, y: -0.5, z: -0.49999997, w: 0.50000006}
+  m_LocalRotation: {x: 0.5, y: 0.5, z: -0.5, w: 0.5}
   m_LocalPosition: {x: 1.5799999, y: 1.71, z: 0.86000013}
   m_LocalScale: {x: 0.42548, y: 0.42548, z: 0.24842927}
   m_ConstrainProportionsScale: 0
@@ -64,7 +64,6 @@ MonoBehaviour:
     material: {fileID: 2100000, guid: b119ef1917cf7724d8b3bdd9045c914c, type: 2}
     texture: {fileID: 2800000, guid: b8736e8db91ab3d46ab25822204e8730, type: 3}
     videoClip: {fileID: 0}
-    is360Video: 0
     uvScaleX: 1
     uvScaleY: 1
     uvOffsetX: 0
@@ -77,7 +76,6 @@ MonoBehaviour:
     material: {fileID: 2100000, guid: b119ef1917cf7724d8b3bdd9045c914c, type: 2}
     texture: {fileID: 2800000, guid: b8736e8db91ab3d46ab25822204e8730, type: 3}
     videoClip: {fileID: 0}
-    is360Video: 0
     uvScaleX: 1
     uvScaleY: 1
     uvOffsetX: 0
@@ -90,7 +88,6 @@ MonoBehaviour:
     material: {fileID: 2100000, guid: b119ef1917cf7724d8b3bdd9045c914c, type: 2}
     texture: {fileID: 0}
     videoClip: {fileID: 32900000, guid: 4555e12ddd9723d4c99186074d86a0df, type: 3}
-    is360Video: 0
     uvScaleX: 1
     uvScaleY: 1
     uvOffsetX: 0

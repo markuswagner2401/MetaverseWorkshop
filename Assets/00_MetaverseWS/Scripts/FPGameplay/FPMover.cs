@@ -44,7 +44,7 @@ public class FPMover : MonoBehaviour
     
     void Update()
     {
-        moveDirection = (fpHeadRotation.forward * moveInputVector.y) + (fpHeadRotation.right * moveInputVector.x) + (fpHeadRotation.up * upDownInputValue) ;
+        moveDirection = (fpHeadRotation.forward * moveInputVector.y) + (fpHeadRotation.right *  moveInputVector.x) + (fpHeadRotation.up * upDownInputValue) ;
 
 
         smoothedMoveDirection = Vector3.Lerp(smoothedMoveDirection, moveDirection, smoothing);

@@ -15,7 +15,38 @@ PrefabInstance:
         type: 3}
     - target: {fileID: 2788461390490859466, guid: 6047341f8e337b5438ee7a29d9c3c491,
         type: 3}
+      propertyPath: materialStates.Array.size
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 2788461390490859466, guid: 6047341f8e337b5438ee7a29d9c3c491,
+        type: 3}
+      propertyPath: materialStates.Array.data[3].note
+      value: activePlatzhalterVideo
+      objectReference: {fileID: 0}
+    - target: {fileID: 2788461390490859466, guid: 6047341f8e337b5438ee7a29d9c3c491,
+        type: 3}
+      propertyPath: materialStates.Array.data[3].material
+      value: 
+      objectReference: {fileID: 2100000, guid: b119ef1917cf7724d8b3bdd9045c914c, type: 2}
+    - target: {fileID: 2788461390490859466, guid: 6047341f8e337b5438ee7a29d9c3c491,
+        type: 3}
+      propertyPath: materialStates.Array.data[3].uvScaleX
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2788461390490859466, guid: 6047341f8e337b5438ee7a29d9c3c491,
+        type: 3}
+      propertyPath: materialStates.Array.data[3].uvScaleY
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2788461390490859466, guid: 6047341f8e337b5438ee7a29d9c3c491,
+        type: 3}
       propertyPath: materialStates.Array.data[2].videoClip
+      value: 
+      objectReference: {fileID: 32900000, guid: d5f5c0bfa719ae54999af6632b2829f4,
+        type: 3}
+    - target: {fileID: 2788461390490859466, guid: 6047341f8e337b5438ee7a29d9c3c491,
+        type: 3}
+      propertyPath: materialStates.Array.data[3].videoClip
       value: 
       objectReference: {fileID: 32900000, guid: d5f5c0bfa719ae54999af6632b2829f4,
         type: 3}

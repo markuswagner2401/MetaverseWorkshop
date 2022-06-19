@@ -6,6 +6,10 @@ TagManager:
   tags:
   - RealtimeRig
   - DebugLog
+  - LeftHandVR
+  - RightHandVR
+  - MalenScene
+  - ExhibitionScene
   layers:
   - Default
   - TransparentFX

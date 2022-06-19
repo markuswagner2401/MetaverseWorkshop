@@ -5,12 +5,15 @@ EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Scenes:
-  - enabled: 0
-    path: Assets/Scenes/SampleScene.unity
-    guid: 99c9720ab356a0642a771bea13969a05
   - enabled: 1
-    path: Assets/00_MetaverseWS/Scenes/SampleScenes/Malen.unity
-    guid: 6e29785484ac36f4b97b69efd6c3815c
+    path: Assets/00_MetaverseWS/Scenes/TransferScene.unity
+    guid: 32b5b81047f81964e8d8ddf9c5a66494
+  - enabled: 1
+    path: Assets/00_MetaverseWS/Scenes/SampleScenes/MetaverseAusstellung_WSStart.unity
+    guid: 199b5fd055747e24eacf120a5482538f
+  - enabled: 1
+    path: Assets/00_MetaverseWS/Scenes/SampleScenes/Malen_WSStart.unity
+    guid: a80771ffb7105984fabb858c5dd4d5f2
   m_configObjects:
     Unity.XR.Oculus.Settings: {fileID: 11400000, guid: ee6734fb0ca94c84695866b8f6f624fa,
       type: 2}

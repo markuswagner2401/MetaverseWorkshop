@@ -17,6 +17,8 @@ public class FlammenwerferControl : MonoBehaviour
 
     [SerializeField] Transform handTransform;
 
+   
+
     [SerializeField] Realtime realtime;
     ParticleSync particleSync;
 
@@ -27,6 +29,12 @@ public class FlammenwerferControl : MonoBehaviour
     void Start()
     {
         realtime.didConnectToRoom += DidConnectToRoom;
+
+        deviceChecker = FindObjectOfType<MultiplayerDeviceChecker>();
+
+       
+
+        realtime = FindObjectOfType<Realtime>();
     }
 
     private void DidConnectToRoom(Realtime realtime)
@@ -39,6 +47,8 @@ public class FlammenwerferControl : MonoBehaviour
 
         CreateFlameThrower();
     }
+
+    
 
     void Update()
     {

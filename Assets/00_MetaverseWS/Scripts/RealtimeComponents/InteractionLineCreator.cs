@@ -70,6 +70,8 @@ public class InteractionLineCreator : MonoBehaviour
 
         _lineSync = _lineObject.GetComponent<LineSync>();
 
+        SetEnabled(false);
+
         lineCreated = true;
 
     }
