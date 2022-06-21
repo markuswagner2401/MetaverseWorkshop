@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.0007072474, g: 0.009428319, b: 0.016942166, a: 1}
+  m_IndirectSpecularColor: {r: 0.00067326677, g: 0.00896965, b: 0.016092045, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -1562,7 +1562,7 @@ PrefabInstance:
     - target: {fileID: 4954585638708911555, guid: af13882c55e751d4ab80692b21f29de4,
         type: 3}
       propertyPath: materialStates.Array.size
-      value: 5
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 4954585638708911555, guid: af13882c55e751d4ab80692b21f29de4,
         type: 3}
@@ -1572,11 +1572,16 @@ PrefabInstance:
     - target: {fileID: 4954585638708911555, guid: af13882c55e751d4ab80692b21f29de4,
         type: 3}
       propertyPath: materialStates.Array.data[3].note
-      value: PlatzhalterBild360
+      value: activePlatzhalterVideo
       objectReference: {fileID: 0}
     - target: {fileID: 4954585638708911555, guid: af13882c55e751d4ab80692b21f29de4,
         type: 3}
       propertyPath: materialStates.Array.data[4].note
+      value: PlatzhalterBild360
+      objectReference: {fileID: 0}
+    - target: {fileID: 4954585638708911555, guid: af13882c55e751d4ab80692b21f29de4,
+        type: 3}
+      propertyPath: materialStates.Array.data[5].note
       value: PlatzhalterBild360
       objectReference: {fileID: 0}
     - target: {fileID: 4954585638708911555, guid: af13882c55e751d4ab80692b21f29de4,
@@ -1588,10 +1593,15 @@ PrefabInstance:
         type: 3}
       propertyPath: materialStates.Array.data[3].texture
       value: 
-      objectReference: {fileID: 2800000, guid: 191664b7d457ad9489bf2b5d655ecb34, type: 3}
+      objectReference: {fileID: 0}
     - target: {fileID: 4954585638708911555, guid: af13882c55e751d4ab80692b21f29de4,
         type: 3}
       propertyPath: materialStates.Array.data[4].texture
+      value: 
+      objectReference: {fileID: 2800000, guid: 191664b7d457ad9489bf2b5d655ecb34, type: 3}
+    - target: {fileID: 4954585638708911555, guid: af13882c55e751d4ab80692b21f29de4,
+        type: 3}
+      propertyPath: materialStates.Array.data[5].texture
       value: 
       objectReference: {fileID: 2800000, guid: dc0fb875cde1df840a4c21c6e4ae9914, type: 3}
     - target: {fileID: 4954585638708911555, guid: af13882c55e751d4ab80692b21f29de4,
@@ -1626,9 +1636,31 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4954585638708911555, guid: af13882c55e751d4ab80692b21f29de4,
         type: 3}
+      propertyPath: materialStates.Array.data[5].material
+      value: 
+      objectReference: {fileID: 2100000, guid: b119ef1917cf7724d8b3bdd9045c914c, type: 2}
+    - target: {fileID: 4954585638708911555, guid: af13882c55e751d4ab80692b21f29de4,
+        type: 3}
+      propertyPath: materialStates.Array.data[5].uvScaleX
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4954585638708911555, guid: af13882c55e751d4ab80692b21f29de4,
+        type: 3}
+      propertyPath: materialStates.Array.data[5].uvScaleY
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4954585638708911555, guid: af13882c55e751d4ab80692b21f29de4,
+        type: 3}
+      propertyPath: materialStates.Array.data[2].videoClip
+      value: 
+      objectReference: {fileID: 32900000, guid: ad0c16325633e3148933265b1a7ef3ad,
+        type: 3}
+    - target: {fileID: 4954585638708911555, guid: af13882c55e751d4ab80692b21f29de4,
+        type: 3}
       propertyPath: materialStates.Array.data[3].videoClip
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 32900000, guid: c7dab774701fdbd44b4ed3d911ef9331,
+        type: 3}
     - target: {fileID: 4954585638708911557, guid: af13882c55e751d4ab80692b21f29de4,
         type: 3}
       propertyPath: m_Name
