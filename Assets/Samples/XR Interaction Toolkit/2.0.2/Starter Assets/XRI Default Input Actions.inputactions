@@ -1577,6 +1577,17 @@
                 },
                 {
                     "name": "",
+                    "id": "7dc4d867-95b8-40a6-9e9c-15972d2f9769",
+                    "path": "<Mouse>/leftButton",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Brush_rechts",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
                     "id": "a605fbc1-c21f-45ae-9303-7563bd6780e5",
                     "path": "<XRController>{LeftHand}/grip",
                     "interactions": "",

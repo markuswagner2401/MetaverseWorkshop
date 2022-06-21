@@ -15,6 +15,8 @@ public class Brush : MonoBehaviour {
 
     [SerializeField] Transform handTransform;
 
+
+
    
 
     // Which hand should this brush instance track?
@@ -32,6 +34,11 @@ public class Brush : MonoBehaviour {
 
         //handTransform = GameObject.FindWithTag(HandTransformTag).transform;
 
+    }
+
+    public void SetHandTransform(Transform newHandTransform)
+    {
+        handTransform = newHandTransform;
     }
 
     private void Update() {
