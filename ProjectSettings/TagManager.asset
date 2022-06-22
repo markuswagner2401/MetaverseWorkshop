@@ -10,6 +10,8 @@ TagManager:
   - RightHandVR
   - MalenScene
   - ExhibitionScene
+  - Triggerkugel
+  - FalleSzene
   layers:
   - Default
   - TransparentFX

@@ -6,8 +6,10 @@ using System;
 using UnityEngine.Video;
 using UnityEngine.Rendering;
 
+
 public class MaterialSync : RealtimeComponent<MaterialSyncModel>
 {
+    
     [SerializeField] MaterialState[] materialStates;
 
     
@@ -33,6 +35,8 @@ public class MaterialSync : RealtimeComponent<MaterialSyncModel>
         public float uvOffsetX;
 
         public float uvOffsetY;
+
+        
 
         
 
