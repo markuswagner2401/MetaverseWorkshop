@@ -76,6 +76,8 @@ public class MaterialSync : RealtimeComponent<MaterialSyncModel>
 
     [SerializeField] bool replaceStartStateWithCurrentMaterial;
 
+    [SerializeField] bool playActiveAtStart;
+
     // [SerializeField] RenderTexture hDVideoRT;
     // [SerializeField] RenderTexture video360RT;
 
@@ -172,6 +174,11 @@ public class MaterialSync : RealtimeComponent<MaterialSyncModel>
             
 
             
+        }
+
+        if(playActiveAtStart)
+        {
+            SetNextActiveMaterialState();
         }
         
     }
